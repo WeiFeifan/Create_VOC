@@ -1,4 +1,5 @@
 # Create_VOC
+<<<<<<< HEAD
 =============
 A simple tool for creating VOC dataset,implemented with Python cv2.
 
@@ -42,3 +43,7 @@ python createVOC.py
 |--JPEGImages          ##directory containing images
 |
 |--label               ##directory contain labels
+=======
+The repo is for creating VOC dataset.
+# Installation
+>>>>>>> origin/master
