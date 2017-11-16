@@ -4,9 +4,9 @@ A simple tool for creating VOC dataset,implemented with Python cv2.
 
 Data Organization
 -------------
-|<br>
-|--createVOC.py      *# source code for creating  VOC dataset*                  <br>
-|                                                                             <br>
+|
+|--createVOC.py      *# source code for creating  VOC dataset*                 
+|                                                                            
 |--createTest.py     *# source code for creating  test.txt and trainval.txt*    <br>
 |<br>
 |--createXml.py      *# source code for creating Annotations/**.xml*            <br>
