@@ -4,16 +4,16 @@ A simple tool for creating VOC dataset,implemented with Python cv2.
 
 Data Organization
 -------------
-|
-|--createVOC.py      # source code for creating  VOC dataset                  <br>
+|<br>
+|--createVOC.py      * source code for creating  VOC dataset                  <br>
 |                                                                             <br>
-|--createTest.py     # source code for creating  test.txt and trainval.txt    <br>
+|--createTest.py     * source code for creating  test.txt and trainval.txt    <br>
 |<br>
-|--createXml.py      # source code for creating Annotations/**.xml            <br>
+|--createXml.py      * source code for creating Annotations/**.xml            <br>
 |<br>
-|--Labels/           # directory containing the  labels                       <br>
+|--Labels/           * directory containing the  labels                       <br>
 |<br>
-|--Images/           # directory containing the images                        <br>
+|--Images/           * directory containing the images                        <br>
 
 Environment
 -------------
@@ -35,10 +35,10 @@ Usage
 VOC 
 ------------
 |
-|--Annotations/        # directory containing xml                               <br>
+|--Annotations/        * directory containing xml                               <br>
 |                                                                               <br>
-|--ImageSets/Main      # directory containing trainval.txt and test.txt         <br>
+|--ImageSets/Main      * directory containing trainval.txt and test.txt         <br>
 |<br>
-|--JPEGImages          # directory containing images                            <br>
+|--JPEGImages          * directory containing images                            <br>
 |<br>
-|--label               # directory contain labels                               <br>
+|--label               * directory contain labels                               <br>
