@@ -1,9 +1,8 @@
 # Create_VOC
-<<<<<<< HEAD
-=============
+
 A simple tool for creating VOC dataset,implemented with Python cv2.
 
-# Data Organization
+Data Organization
 -------------
 |
 |--createVOC.py      ##source code for creating  VOC dataset
@@ -16,16 +15,16 @@ A simple tool for creating VOC dataset,implemented with Python cv2.
 |
 |--Images/           ##directory containing the images
 
-# Environment
+Environment
 -------------
 -python3 
 -python cv2  shutil  itertools
 
-# Run
+Run
 -------------
 python createVOC.py
 
-# Usage
+Usage
 -------------
 0. The current tool requires that images in the directory Images/  and labels in the directory Labels/  .You will need to modify the createVOC.py in rows 26 and 27, if you want to create VOC dataset from the images and labels elsewhere.
 
@@ -33,7 +32,7 @@ python createVOC.py
 
 2.After runing createVOC.py,we will get the VOC dataset.
 
-# VOC 
+VOC 
 ------------
 |
 |--Annotations/        ##directory containing xml
@@ -44,6 +43,3 @@ python createVOC.py
 |
 |--label               ##directory contain labels
 =======
-The repo is for creating VOC dataset.
-# Installation
->>>>>>> origin/master
