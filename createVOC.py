@@ -23,8 +23,8 @@ if __name__ == "__main__":
         os.makedirs('VOC/ImageSets/Main')
         os.makedirs('VOC/JPEGImages')
         os.makedirs('VOC/label')
-    copy_file('Labels/3','VOC/label')
-    copy_file('Images/2','VOC/JPEGImages')
+    copy_file('Labels','VOC/label')
+    copy_file('Images','VOC/JPEGImages')
     create()
 #fllow the instructions of createTest.py 
     create_test(1,32,6)
